@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flying ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* background: gray; */
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black ;
+    text-align: center;
+    font-size: 3em;
+    border: 2px solid black ;
+    background-color:rgba(255, 228, 196, 0.719) ;
+}
+header a :hover{
+    color: tomato;
+}
+nav{
+    background: #594848;
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+    width: 140px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #594848;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    background-color:skyblue;
+    color: black;
+}
+div a h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /* color: cyan; */
+    color: white    ;
+    font-size:3em ;
+    
+}
+div a h2:hover{
+    color: coral;
+}
+
+footer h3{
+    background-color: #594848;
+    padding: 10px 10px;
+    text-align: center;
+}
+</style>
+<body>
+    <header>
+        <a href="../index.html"><h1>GAMING ZONE</h1></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../html/playstation.html">PLAYSTATION</a></li>
+            <li><a href="../html/sega.html">SEGA</a></li>
+            <li><a href="../html/nintendo64.html">NINTENDO 64</a></li>
+            <li><a href="../html/js.html">JS</a></li>
+        </ul>
+    </nav>
+    <div>
+        <a href="flyingball.html"><h2>FLYING BALL</h2></a>
+    <iframe src="/js/index-1.html" frameborder="0" width="100%" height="510px"></iframe>
+    <footer>
+        <h3>2022 &copy; GAMING ZONE</h3>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

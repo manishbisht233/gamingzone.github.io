@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYSTATION</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 15px 30px;
+            padding: 8px;
+        }
+        /* body{
+            background-image: url('img/images.jpg');
+        } */
+        body{
+            margin: 0;
+            background: gray;
+        }
+        a{
+            text-decoration: none;
+        }
+        header{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black ;
+            text-align: center;
+            font-size: 3em;
+            border: 2px solid black ;
+            background-color:rgba(255, 228, 196, 0.719) ;
+        }
+        header h1{
+            color: black;
+        }
+        nav{
+            background: #594848;
+            width: 100%;
+            overflow: auto;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            float: left;
+        }
+        nav a{
+            width: 140px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            background-color: #594848;
+            font-size: 17px;
+            color: white;
+            padding: 20px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav a:hover{
+            background-color: skyblue;
+            color: black;
+        }
+        .container{
+            max-width: 1200px;
+            margin: auto;
+            background: #f2f2f2;
+            overflow: auto;
+        }
+        .gallery{
+            margin: 5PX;
+            border: 1px solid #ccc;
+            float: left;
+            width: 390px;
+        }
+        .gallery img{
+            width: 100%;
+            height: auto;
+        }
+        .desc{
+            color: black;
+            padding: 15px;
+            text-align: center;
+            background: #ccc;
+        }
+        .gallery a :hover{
+            color: tomato;
+            background-color:#594848 ;
+        }
+        div h2{
+            color: black;
+            font-size: 3em;
+            padding-left: 5%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        }
+        div a h2:hover{
+            color: coral;
+        }
+        header a :hover{
+            color:tomato;
+        }
+        footer h3{
+            background-color: #594848;
+            padding: 10px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <a href="../index.html"><h1>GAMING ZONE</h1></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="playstation.html">PLAYSTATION</a></li>
+            <li><a href="sega.html">SEGA</a></li>
+            <li><a href="nintendo64.html">NINTENDO 64</a></li>
+            <li><a href="js.html">JS</a></li>
+        </ul>
+    </nav>
+    <div>
+        <a href="playstation.html"><h2>PLAYSTATION</h2></a>
+    </div>
+    <div class="container">
+        <div class="gallery">
+            <a href="tekken.html" target="blank" target="blank">
+            <img src="../img/tekken.png" alt="This is an image">
+            <div class="desc">TEKKEN 3</div>
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a href="ctr.html" target="blank">
+            <img src="../img/ctr.jpg" alt="This is an image">
+            <div class="desc">CRASH TEAM RACING</div>
+            </a>
+        </div>
+
+        <div class="gallery">
+            <a href="fifa 2000.html" target="blank">
+                <img src="../img/fifa2000.jpg" alt="This is an image">
+                <div class="desc">FIFA 2000</div>
+                </a>
+        </div>
+
+        <div class="gallery">
+            <a href="AceCombat.html" target="blank">
+                <img src="../img/acecombat.png" alt="This is an image">
+                <div class="desc">Ace Combat</div>
+                </a>
+        </div>
+
+        <div class="gallery">
+            <a href="street.html" target="blank">
+                <img src="../img/street.png" alt="This is an image">
+                <div class="desc">STREET FIGHTER 2</div>
+                </a>
+        </div>
+
+        <div class="gallery">
+            <a href="crash.html" target="blank">
+                <img src="../img/crash.png" alt="This is an image">
+                <div class="desc">CRASH BANDICOOT</div>
+                </a>
+        </div>
+    </div>
+    <footer>
+        <h3>2022 &copy; GAMING ZONE</h3>
+    </footer>
+</body>
+</html>

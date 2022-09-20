@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    font-size: 300%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border: 2px solid black ;
+}
+header a :hover{
+    color: tomato;
+}
+nav{
+    text-align: center;
+    background-color:cadetblue ;
+    font-size: 30px;
+    border: 2px black solid;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    /* color: aqua; */
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    color: coral;
+}
+div a h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /* color: cyan; */
+    color: white    ;
+    border: 2px black solid;
+    font-size:50px ;
+    background-color: cadetblue;
+}
+div a h2:hover{
+    color: coral;
+}
